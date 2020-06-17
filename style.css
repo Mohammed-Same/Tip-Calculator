@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(96, 145, 103);
+}
+.container{
+  height:520px;
+  width: 380px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+   
+h1{
+    background-color: #1591ad;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size:45px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   font-family: 'Roboto', sans-serif;
+}
+.form{
+    margin: 40px auto;
+    justify-content: space-between;
+ }
+
+p{
+    padding-left:20px;
+    font-size: 28px;
+    font-family: vendana,sans-serif;
+}
+input{
+    width:70%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 1rem;
+}
+
+#serviceQuality{
+    margin-top: 5px;
+    padding: 5px 5px 8px 8px;
+    margin-left: 20px;
+    width: 70%;
+    height: 30px;
+}
+.calculatebtn{
+    width: 40%;
+    height: 30px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    color: red;
+    cursor: pointer;
+}
+.calculatebtn:hover{
+    background-color: #8fccb4;
+   
+}
+.calculatebtn:active {
+  position: relative;
+  top: 1px;
+}
+#totaltip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totaltip:before {
+  content: "Tip amount";
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totaltip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totaltip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
