@@ -93,11 +93,13 @@ input{
   font-weight: bold;
   display: block;
 }
-@media all and (max-width:500px){
-    .container{
-  height:420px;
-  width: 280px;
-  margin:20px auto auto 25px;
-    }
+@media all and (max-width: 500px){
+  .container{
+    width:300px; 
+    height: 570px;
+    margin: 25px auto auto 35px;
+  }
+  h1{
+       font-size:35px;
+  }
 }
-    
